@@ -1040,6 +1040,11 @@ ul.link li a::after {
      color: #009614; /* You can set the text color to white for better visibility */
  }
 
+ .dropdown-item:active {
+     background-color: #009614;
+     color: white; /* You can set the text color to white for better visibility */
+ }
+
  .titlepage2 h2{
      font-size: 60px;
      color: white;
