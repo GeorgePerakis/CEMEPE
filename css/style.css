@@ -403,20 +403,32 @@ ul.btn li:last-child {
 
 .text-bg h1 {
      text-transform: uppercase;
-     color: #fff;
+     color: #000000;
      font-size: 110px;
      line-height: 120px;
-     padding-bottom: 15px;
+     padding-bottom: 280px;
      font-weight: bold;
+     text-shadow:
+     -1px -1px 0 #ffffff,
+     1px -1px 0 #000,
+     -1px 1px 0 #ffffff,
+     1px 1px 0 #000;
+     
 }
 
 .text-bg p {
-     font-size: 17px;
-     color: #fff;
+     padding-top: 300px;
+     font-size: 18px;
+     color: #ffffff;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 50px;
      display: block;
+     text-shadow:
+     -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .text-bg a {
